@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(88, 32, 32, 0.791),rgb(47, 32, 32)),url(background.jpg);
+    
+}
