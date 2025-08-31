@@ -11,7 +11,96 @@ body{
 }
 header{
     width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, rgba(88, 32, 32, 0.791),rgb(47, 32, 32)),url(background.jpg);
-    
+    height: 100vh;
+    background: linear-gradient(to top, rgba(134, 92, 92, 0.791),rgb(28, 17, 17)),url(background.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 180px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.left img{
+    width:100%;
+}
+.right{
+    margin-right: 25px;
+}
+.right button{
+    border: 0;
+    outline: none;
+    background-color: rgb(246, 3, 3);
+    color: white;
+    padding: 10px 15px ;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.text{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    margin-top: 25vh;
+    color: white;
+}
+.text h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.text h3{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text .email{
+    display: flex;
+    gap: 10px;
+    border: 0;
+    align-items: center;
+    margin: auto;
+}
+.email input{
+    padding: 15px 45px;
+    outline: 0;
+    border: 1px solid gray;
+    background-color: rgba(134, 131, 131, 0.761);
+    color: rgb(240, 238, 238);
+    font-weight: bold;
+    border-radius: 4px;
+}
+.email button{
+    padding: 15px 35px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 4px;
+    background: rgb(198, 22, 22);
+    color: white;
+}
+.email button i{
+    margin-left: 15px;
+}
+.email ::placeholder{
+    color: white;
+}
+hr{
+    color: aqua;
+}
+/*body design*/
+
